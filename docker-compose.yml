@@ -6,7 +6,7 @@ services:
   #nginx
   nginx-service:
     image: nginx:stable-alpine
-    container_name: nginx
+    container_name: nginx-template
     ports:
       - "8080:80"
     volumes:
